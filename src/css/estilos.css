@@ -1,0 +1,41 @@
+a{
+    color: green;
+}
+
+body{
+    background-image: url(../imagens/Fundo_negro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    font-family: 'VT323', monospace;
+    color: white;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+    padding: 380px;
+}
+
+.center{
+    background-color: black;
+    width: 1000px;
+    border: 2px solid purple;
+    border-radius: 10px;
+    gap: 10px;
+}
+
+.center .minhas-informacoes{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center .minhas-informacoes img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50px;
+    border: 4px solid greenyellow
+}
